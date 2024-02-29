@@ -1,7 +1,7 @@
-c9cb755ed1a3bb4677f84ed7b44fc7d7 *DESCRIPTION
+31d7a106b9632bff2179e850383acfb5 *DESCRIPTION
 2b3ddd36e33300e6a732f4ac8aa14476 *LICENSE
 8eeaa87e21a1d2f46c7d673f904c8f6c *NAMESPACE
-ecf8b18be6f53c66518fb3dfbd649b5a *R/did_multiplegt.R
+a2eba378564e0c59ef796ff423926599 *R/did_multiplegt.R
 440daf15bfd4814980883f5c96184728 *README.md
-100671b49d340d5a8b8d7896b34b8efb *man/did_multiplegt.Rd
+dccdc0e6abe035740b30cf64f31452c7 *man/did_multiplegt.Rd
 03fcc13b8534850689d302b9bb2819c5 *tests/test_short.R
