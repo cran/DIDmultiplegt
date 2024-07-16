@@ -1,36 +1,30 @@
 Package: DIDmultiplegt
 Type: Package
-Title: Estimation in DID with Multiple Groups and Periods
-Version: 0.1.4
-Authors@R: c(person("Shuo", "Zhang", role = "aut", email = "s.zhang@northeastern.edu"),
-      person("Clément", "de Chaisemartin", role = "aut", email = "clement.dechaisemartin@sciencespo.fr"),
-      person("Diego", "Ciccia", role = "cre", email = "diego.ciccia@sciencespo.fr"))
-Maintainer: Diego Ciccia <diego.ciccia@sciencespo.fr>
-Description: 
-    Estimate the effect of a treatment on an outcome in sharp Difference-in-Difference designs with multiple groups and periods. 
-    It computes the DIDM estimator introduced in Section 4 of "Two-Way Fixed Effects Estimators with Heterogeneous
-    Treatment Effects" (Chaisemartin, D'Haultfoeuille (2020)  <doi:10.1257/aer.20181169>), which
-    generalizes the standard DID estimator with two groups, two periods and a binary treatment to situations
-    with many groups,many periods and a potentially non-binary treatment. For each pair of consecutive time
-    periods t-1 and t and for each value of the treatment d, the package computes a DID estimator comparing
-    the outcome evolution among the switchers, the groups whose treatment changes from d to some other value
-    between t-1 and t, to the same evolution among control groups whose treatment is equal to d both in t-1 and t.
-    Then the DIDM estimator is equal to the average of those DIDs across all pairs of consecutive time periods and
-    across all values of the treatment. Under a parallel trends assumption, DIDM is an unbiased and consistent estimator
-    of the average treatment effect among switchers, at the time period when they switch.
-    The package can also compute placebo estimators that can be used to test the parallel trends assumption.
-    Finally, in staggered adoption designs where each group's treatment is weakly increasing over time,
-    it can compute estimators of switchers' dynamic treatment effects, one time period or more after they have
-    started receiving the treatment.
+Title: Estimators DID with Multiple Groups and Periods
+Version: 2.0.0
+Authors@R: 
+    c(person("Diego", "Ciccia", role = c("aut", "cre"), email = "diego.ciccia@kellogg.northwestern.edu"),
+	person("Felix", "Knau", role = "aut", email = "felix.knau@sciencespo.fr"),
+	person("Mélitine", "Malezieux", role = "aut", email = "melitine.malezieux@sciencespo.fr"),	
+	person("Doulo", "Sow", role = "aut", email = "doulo.sow@ensae.fr"),
+  person("Shuo", "Zhang", role = "aut", email = "s.zhang@northeastern.edu"),
+    person("Clément", "de Chaisemartin", role = "aut", email = "clement.dechaisemartin@sciencespo.fr"))
+Maintainer: Diego Ciccia <diego.ciccia@kellogg.northwestern.edu>
+Description: Estimators of Difference-in-Differences based on de Chaisemartin and D'Haultfoeuille.
 License: MIT + file LICENSE
 Encoding: UTF-8
+LazyData: true
 Depends: R(>= 3.4.0)
-Imports: dplyr (>= 1.0.0), fixest (>= 0.6.0), plotrix, stringr,
-        sampling, stats, parallel, assertthat, wooldridge
+Imports: dplyr (>= 1.0.0), fixest (>= 0.6.0), plotrix, sampling, stats,
+        parallel, magrittr, stringr, DIDmultiplegtDYN, DIDHAD
+Author: Diego Ciccia [aut, cre],
+  Felix Knau [aut],
+  Mélitine Malezieux [aut],
+  Doulo Sow [aut],
+  Shuo Zhang [aut],
+  Clément de Chaisemartin [aut]
+RoxygenNote: 7.3.2
 NeedsCompilation: no
-Packaged: 2024-05-27 12:05:05 UTC; 39380
-Author: Shuo Zhang [aut],
-  Clément de Chaisemartin [aut],
-  Diego Ciccia [cre]
+Packaged: 2024-07-12 14:18:02 UTC; cicci
 Repository: CRAN
-Date/Publication: 2024-05-27 13:50:02 UTC
+Date/Publication: 2024-07-16 21:10:11 UTC

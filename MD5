@@ -1,7 +1,10 @@
-be6e0026c2d6793fb77765abb094bbc9 *DESCRIPTION
-2b3ddd36e33300e6a732f4ac8aa14476 *LICENSE
-8eeaa87e21a1d2f46c7d673f904c8f6c *NAMESPACE
-a2eba378564e0c59ef796ff423926599 *R/did_multiplegt.R
-440daf15bfd4814980883f5c96184728 *README.md
-4b9de904c2b25fca0eb001bdee158eef *man/did_multiplegt.Rd
-03fcc13b8534850689d302b9bb2819c5 *tests/test_short.R
+a629e3a574385ef8c394b0fcf957af3a *DESCRIPTION
+64f051962a37df1ae49a105b8fedf5ce *LICENSE
+889cddadc49e7fbfa506178a9c109043 *NAMESPACE
+f64f38c7829be5647ef22b7babe97e4b *R/data.R
+a59adfebbd528f2501ea7f907c19da02 *R/did_multiplegt.R
+410dee62fc9bb19e2613104ec59b44db *R/did_multiplegt_old.R
+70c7d4655e040915a0f38c27bad07781 *data/wagepan_mgt.rda
+4e9b3b71dce9bb7ea1c4246033eb1a0f *man/did_multiplegt.Rd
+12da040390b2758deb009d98bd6b73f6 *man/did_multiplegt_old.Rd
+3ffa0dc23e3491531fa42681415aeb3a *man/wagepan_mgt.Rd
