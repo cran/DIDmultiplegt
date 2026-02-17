@@ -1,10 +1,10 @@
-a629e3a574385ef8c394b0fcf957af3a *DESCRIPTION
+dd8d0d7aa4a0e740d2d3cb958d542b3f *DESCRIPTION
 64f051962a37df1ae49a105b8fedf5ce *LICENSE
-889cddadc49e7fbfa506178a9c109043 *NAMESPACE
-f64f38c7829be5647ef22b7babe97e4b *R/data.R
-a59adfebbd528f2501ea7f907c19da02 *R/did_multiplegt.R
-410dee62fc9bb19e2613104ec59b44db *R/did_multiplegt_old.R
+5a7cdefdc009c350b091b8596e26d641 *NAMESPACE
+9a2caeb17b51df80870a5c150a72be19 *R/data.R
+8a757421c910bf76981d7e6591a93e1c *R/did_multiplegt.R
+701f0e0a9b6a5acb41c8ed402b29238f *R/did_multiplegt_old.R
 70c7d4655e040915a0f38c27bad07781 *data/wagepan_mgt.rda
-4e9b3b71dce9bb7ea1c4246033eb1a0f *man/did_multiplegt.Rd
-12da040390b2758deb009d98bd6b73f6 *man/did_multiplegt_old.Rd
+c39ba6a4213fd4e20d89224d4269046f *man/did_multiplegt.Rd
+f29a74caf92ee38930a337194572d343 *man/did_multiplegt_old.Rd
 3ffa0dc23e3491531fa42681415aeb3a *man/wagepan_mgt.Rd

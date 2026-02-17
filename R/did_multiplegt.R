@@ -24,7 +24,7 @@
 #' 
 #' Vella, F. and Verbeek, M. 1998. Journal of Applied Econometrics 13(2), 163–183.  [Whose wages do unions raise? a dynamic model of unionism and wage rate determination for young men](https://onlinelibrary.wiley.com/doi/abs/10.1002/(SICI)1099-1255(199803/04)13:2%3C163::AID-JAE460%3E3.0.CO;2-Y).
 #' 
-#' @examples 
+#' @examples
 #' # Test all modes using Vella and Verbeek (1998) data:
 #' data("wagepan_mgt")
 #' wagepan_mgt$X <- runif(n=nrow(wagepan_mgt)) * (wagepan_mgt$year >= 1983)
@@ -33,10 +33,13 @@
 #' T = "year"
 #' D = "union"
 #' X = "X"
-
+#'
 #' did_multiplegt(mode = "old", wagepan_mgt, Y, G, T, D)
+#' \dontrun{
+#' # These examples require polars package to be installed
 #' did_multiplegt(mode = "dyn", wagepan_mgt, Y, G, T, D, graph_off = TRUE)
 #' did_multiplegt(mode = "had", wagepan_mgt, Y, G, T, X, graph_off = TRUE)
+#' }
 #' @export
 did_multiplegt <- function(
     mode, 

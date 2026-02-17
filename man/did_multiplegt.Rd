@@ -46,7 +46,11 @@ G = "nr"
 T = "year"
 D = "union"
 X = "X"
+
 did_multiplegt(mode = "old", wagepan_mgt, Y, G, T, D)
+\dontrun{
+# These examples require polars package to be installed
 did_multiplegt(mode = "dyn", wagepan_mgt, Y, G, T, D, graph_off = TRUE)
 did_multiplegt(mode = "had", wagepan_mgt, Y, G, T, X, graph_off = TRUE)
+}
 }
